@@ -36,15 +36,15 @@ let weekly_tasks = `[
         "importance": 0
     },
     {
-        "taskName":"Playing YuGiOh at Card Locals",
+        "taskName":"Playing YuGiOh at Locals",
         "img":"./Images/yugioh.jpg",
-        "description":"Every Sunday playing yugioh at locals",
+        "description":"Sunday at locals",
         "importance": 0
     },
     {
-        "taskName":"Picking up my package",
+        "taskName":"Amazon package",
         "img":"./Images/pickingup_package.jpg",
-        "description":"My package is at the office...",
+        "description":"Picking up my Package at the post office",
         "importance": 0
     },
     {
