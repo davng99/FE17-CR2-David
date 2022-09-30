@@ -1,0 +1,47 @@
+.bell-box{
+    position: relative;
+    width: 50px;
+}
+
+.bell-box div{
+    color: white;
+    left: 10px;
+    top: 5px;
+    padding: 2px 6px;
+    font-size: 8px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.image-cover{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.cover-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-box h1{
+    position: absolute;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#sort-priority:hover{
+    border-color: rgb(195, 201, 174);
+    background-color: rgb(199, 183, 183);
+}
+
+.importance-color{
+    background-color: green;
+    padding: 1px 4px;
+    border-radius: 5px;
+    color: white;
+}
