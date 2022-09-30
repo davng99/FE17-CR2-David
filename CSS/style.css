@@ -5,7 +5,7 @@
 
 .bell-box div{
     color: white;
-    left: 10px;
+    left: 12px;
     top: 5px;
     padding: 2px 6px;
     font-size: 8px;
@@ -37,6 +37,11 @@
 #sort-priority:hover{
     border-color: rgb(195, 201, 174);
     background-color: rgb(199, 183, 183);
+}
+
+.weekly-image{
+    height: 220px;
+    object-fit: cover;
 }
 
 .importance-color{

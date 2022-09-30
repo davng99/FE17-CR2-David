@@ -3,63 +3,54 @@ let weekly_tasks = `[
         "taskName":"Washing clothes",
         "img":"./Images/washing_clothes.jpg",
         "description":"Washing my clothes every week",
-        "importance": 0,
-        "deadline":"01.10.2022"
+        "importance": 0
     },
     {
-        "taskName":"Cleaning room",
+        "taskName":"Cleaning",
         "img":"./Images/room-cleaning.jpg",
-        "description":"One every week cleaning my room",
-        "importance": 0,
-        "deadline":"10.10.2022"
+        "description":"Weekly cleaning in my room",
+        "importance": 0
     },
     {
-        "taskName":"Buying food",
+        "taskName":"Shopping",
         "img":"./Images/buy_food.jpg",
-        "description":"Buying food for home",
-        "importance": 0,
-        "deadline":"05.10.2022"
+        "description":"Shop for weekly groceries at Billa and Hofer.",
+        "importance": 0
     },
     {
         "taskName":"Netflix",
         "img":"./Images/watching-netflix.webp",
         "description":"Relax mode: Watching netflix",
-        "importance": 0,
-        "deadline":"01.10.2022"
+        "importance": 0
     },
     {
         "taskName":"Reading a book",
         "img":"./Images/reading-book.webp",
         "description":"Reading a book to free my brain",
-        "importance": 0,
-        "deadline":""
+        "importance": 0
     },
     {
         "taskName":"Code review",
         "img":"./Images/Coding.jpeg",
         "description":"Finishing my Code review",
-        "importance": 0,
-        "deadline":"01.10.2022"
+        "importance": 0
     },
     {
-        "taskName":"YuGiOh at Card Locals",
+        "taskName":"Playing YuGiOh at Card Locals",
         "img":"./Images/yugioh.jpg",
-        "description":"Every Sunday having fun playing yugioh at locals",
-        "importance": 0,
-        "deadline":"No deadline"
+        "description":"Every Sunday playing yugioh at locals",
+        "importance": 0
     },
     {
         "taskName":"Picking up my package",
         "img":"./Images/pickingup_package.jpg",
         "description":"My package is at the office...",
-        "importance": 0,
-        "deadline":"03.10.2022"
+        "importance": 0
     },
     {
         "taskName":"Pay rent",
         "img":"./Images/miete.jpg",
         "description":"I will not forget",
-        "importance": 0,
-        "deadline":"05.10.2022"
+        "importance": 0
     }
 ]`;

@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
+
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./CSS/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Weekly Planner</title>
 </head>
 
 <body>
+    <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">MyPlanner</a>
@@ -48,15 +51,15 @@
         <img src="./Images/coffee_img.webp" class="img-fluid image-cover" alt="Responsive image">
     </div>
 
-    <!-- Output Cards -->
-    
-    <div class="container mt-3 mb-2 d-flex justify-content-between align-items-center">
+    <!-- Tasks -->
+
+    <div class="container mt-5 mb-5 d-flex justify-content-between align-items-center">
         <h3>Weekly tasks</h3>
         <div>Sort by priority: <button id="sort-priority"><i class="fa-sharp fa-solid fa-arrow-up-wide-short"></i></button></div>
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gap-2 d-flex justify-content-center" id="weekly-box">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center" id="weekly-box">
 
         </div>
     </div>
