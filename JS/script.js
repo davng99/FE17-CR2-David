@@ -39,8 +39,10 @@ function updateHTML() {
                     <p class="priority">
                         <i class="fa-sharp fa-solid fa-triangle-exclamation"></i>
                         Priority level: 
-                        <button class="btn btn-warning importance">Importance <span class="importance-color">${task.importance}</span></button>
-                        </p>
+                        <button class="btn btn-warning importance">
+                            Importance <span class="importance-color">${task.importance}</span>
+                        </button>
+                    </p>
                     <hr>
                 </div>
             </div>
