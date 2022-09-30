@@ -46,7 +46,13 @@
 
 .importance-color{
     background-color: green;
-    padding: 1px 4px;
+    padding: 6px;
     border-radius: 5px;
     color: white;
+    margin-left: 5px;
+}
+
+.priority{
+    display: flex;
+    align-items: center;
 }
