@@ -24,15 +24,15 @@ let weekly_tasks = `[
         "importance": 0
     },
     {
-        "taskName":"Reading a book",
+        "taskName":"Book",
         "img":"./Images/reading-book.webp",
         "description":"Reading a book to free my brain",
         "importance": 0
     },
     {
-        "taskName":"Code review",
-        "img":"./Images/Coding.jpeg",
-        "description":"Finishing my Code review",
+        "taskName":"Gym",
+        "img":"./Images/gym.jpg",
+        "description":"Weight training",
         "importance": 0
     },
     {
@@ -50,7 +50,7 @@ let weekly_tasks = `[
     {
         "taskName":"Pay rent",
         "img":"./Images/miete.jpg",
-        "description":"I will not forget",
+        "description":"Next pay rent in October",
         "importance": 0
     }
 ]`;
