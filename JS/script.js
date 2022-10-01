@@ -76,7 +76,7 @@ function importance(index){
         // Priority level: <span class="importance-color">${week_tasks[index].importance}</span> 
         // `;
 
-        importance_color[index].innerHTML = `${week_tasks[index].importance}`;
+        importance_color[index].innerHTML = week_tasks[index].importance;
         
         //If Priority Level is between 2 and 3 => Priority Level will have a bg color of yellow
         if (week_tasks[index].importance > 1){
